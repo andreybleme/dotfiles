@@ -4,11 +4,12 @@
 [color]
 	ui = true
 [color "st"]
-    added = yellow
-    changed = green
-    untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 [alias]
 	st = status
 	co = checkout
+  who = shortlog -s --
 [core]
 	ignorecase = true
