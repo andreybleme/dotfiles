@@ -1,0 +1,11 @@
+tap "homebrew/cask"
+cask_args appdir: "/Applications"
+
+brew "imagemagick"
+cask "google-chrome"
+cask "slack"
+cask "visual-studio-code"
+cask "authy"
+cask "postman"
+
+whalebrew "whalebrew/wget"
