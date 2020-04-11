@@ -1,0 +1,14 @@
+[user]
+	name = Lucas Bleme
+	email = andreybleme1@gmail.com
+[color]
+	ui = true
+[color "st"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[alias]
+	st = status
+	co = checkout
+[core]
+	ignorecase = true
