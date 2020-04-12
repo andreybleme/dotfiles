@@ -10,6 +10,6 @@
 [alias]
 	st = status
 	co = checkout
-  who = shortlog -s --
+  	who = shortlog -s --
 [core]
 	ignorecase = true

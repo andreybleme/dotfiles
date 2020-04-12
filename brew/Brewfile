@@ -7,5 +7,7 @@ cask "slack"
 cask "visual-studio-code"
 cask "authy"
 cask "postman"
+cask "adoptopenjdk"
+cask "dbeaver-community"
 
 whalebrew "whalebrew/wget"
