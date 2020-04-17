@@ -9,5 +9,6 @@ cask "authy"
 cask "postman"
 cask "adoptopenjdk"
 cask "dbeaver-community"
+cask "git-crypt"
 
 whalebrew "whalebrew/wget"
