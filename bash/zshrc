@@ -111,3 +111,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # GOlang config
 export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
