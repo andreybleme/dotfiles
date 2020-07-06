@@ -1,0 +1,44 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "5b9d3f0429016f0dfb161220196241377e7f3676"
+      }
+    },
+    "cask": {
+      "dbeaver-community": {
+        "version": "7.0.2",
+        "options": {
+          "full_name": "dbeaver-community",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "adoptopenjdk": {
+        "version": "14,36",
+        "options": {
+          "full_name": "adoptopenjdk",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      }
+    },
+    "whalebrew": {
+      "whalebrew/wget": "3cf95cb2ad77f3ab119f461391ce37a026f2da43f5d3e9c8235d0ef66aa29580"
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.11-dirty",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "ca173c85d4734c1a083f5d7c9d545f49eaee6399",
+        "CLT": "11.3.1.0.1.1576735732",
+        "Xcode": "11.3",
+        "macOS": "10.15.3"
+      }
+    }
+  }
+}
