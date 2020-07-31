@@ -109,6 +109,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# GOlang config
+# Golang config
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export GOBIN=$GOPATH/bin
+
+export PATH=~/.local/bin:$PATH:$GOPATH/bin
